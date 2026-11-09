@@ -1,0 +1,21 @@
+
+## 2. `.gitignore`
+
+```gitignore
+# Сборка
+/build/
+/out/
+*.exe
+*.obj
+*.pdb
+*.ilk
+.vs/
+.idea/
+compile_commands.json
+
+# Рабочие данные
+progress.dat
+found_keys.log
+
+# Prebuilt-библиотеки НЕ игнорируем (нужны для сборки):
+# external/secp256k1/lib/*.lib и external/vanity/*.lib остаются в репозитории
